@@ -1,0 +1,303 @@
+*{
+    margin:0px;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar
+{
+    height:60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.nav-logo{ 
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image:url("amazon.png");
+    height: 55px;
+    width: 100px;
+    background-size: cover;
+    size-adjust: 20px;
+   
+}
+ 
+.border
+{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+/* for box2 */
+.address-first{
+    color:  #cccccc;
+    font-size: 0.85  rem;
+    /* rem (root em) and is a unit of measurement that is relative to the font size of the root element  */
+    margin-left: 15px; 
+
+}
+
+.address-second{
+    color: #FFFF;
+    margin-left: 5px;
+
+}
+.add-icon{
+    display: flex;
+    /* because we want location ICON and NEPAL to be in same line. So, we give them flex */
+
+    align-items: center;
+    margin-left: 15px;
+}
+
+/* for box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+   
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+
+ /* for "ALL" BUTTON */
+.search-select{
+    background-color: #e8dede;
+    width: 65px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* these 76 and 77 are given border-bottom, top because we want to make "ALL" button curved from just left top and left bottom */ 
+    border: none;
+
+}
+
+.search-input{
+    width: 500px;
+    font-size: 15px;
+    border: none;
+
+}
+
+.search-icon{
+    width: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.1rem;
+   background-color: orange;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+
+}
+ 
+.nav-search:hover {
+    border:2px solid orange;
+
+
+}
+/* this is for box4( the ENG BOX IS IGNORED */
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+   
+}
+
+/* For box6 'CART' */
+
+.nav-cart i {
+    /* here the "i" is a type of selector that targets all <i> (italic) elements */
+    font-size: 35px;
+
+}
+
+.nav-cart{
+    font-size: o.85rem;
+    font-weight: 700;
+}
+
+/* for panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 20px;
+   
+
+}
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+
+/* for hero-section */
+.hero-section {
+    background-image: url("hero-image.png");
+    height: 350px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* align-item is for vertical placement and justify-content is for horizontal placement. AND FLEX-END IS GIVEN BECAUSE WE WANT TO TAKE THE CONTENT TO THE BOTTOM OF HERO-SECTION */
+
+}
+
+.hero-message{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    width: 80%;
+    margin-bottom: 25px ;
+     
+}
+
+.hero-message a{
+    color: #007185;
+}
+/* for shop-section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap; 
+    /* it is done to wrap the boxes */
+    justify-content: space-evenly;
+    background-color: rgb(252, 235, 175);
+
+
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+
+
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0px;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+/* for FOOTER */
+
+footer{
+    margin-top: 5px;
+}
+.foot-panel1{
+    background-color:#1a4951;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    
+
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 20px;
+    /* SO THAT THE 'GET TO KNOW US" LINE WOULD START AFTER SOME GAP */
+}
+
+ul a {
+    display: block;
+    /* TO MAKE ALL CONTENTS IN SINGLE LINE */
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+
+}
+
+.foot-panel3{
+    background-color: #0b515e;
+    color: white;
+    border-top: 0.01px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.foot-panel4{
+    background-color: #011418;
+    color: white;
+    height: 80px;
+    font-size:0.7rem;
+    text-align: center;
+   
+}
+
+.pages {
+   
+    padding-top: 20px;
+    
+}
+
+.copyright{
+    padding-top: 5px;
+    
+
+
+}
